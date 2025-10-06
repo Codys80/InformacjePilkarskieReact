@@ -1,16 +1,15 @@
-# React + Vite
+# Proszę przygotować stronę z informacjami i na jej wzór weźmiemy meczyki.pl 
+## Na stronie muszą się znaleźć: 
+- Menu górne składające się z: logo, przełącznika jasny/ciemny motyw (nie musi działać) oraz 6 kategorii z czego jedna musi mieć podkategorie.  
+- Poniżej menu górnego musza być 4 karty z kategoriami, w których mają się znaleźć pojedyncze informacje, które będą linkami do podstron przekierowując do jakieś pustej strony. Każda karta ma pokazywać 4 informacje, a pozostałe mają się pojawić po kliknięciu w rozwiń. Przycisk więcej ma kierować do pustej strony. 
+- Następnie mają być wyniki na żywo. Kafelki które będą informować o tym co się dzieje w najbliższym dniu. Mogą się powtarzać, ale muszą być co najmniej 4 unikatowe. I w sumie ma ich być 12.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Ciąg dalszy: 
+- Mają się znaleźć 3 kolumny, które mają zawierać: 
+- Lewa kolumna: informacje z pustymi linkami do popularnych informacji. Mają to być 3 unikatowe puste linki do w sumie 9 takich informacji. 
+- Środkowa kolumna: góry pasek z napisem newsy i odnośnikami do: Ważne, Popularne, Dziś, Wczoraj. Pod paskiem ma być 1 główna duża informacja z pustym linkiem, a pod tym informacje w 2/3 rzędach (do wyboru). Ma być jakieś 5 informacji. 
+- Prawa kolumna ma pokazywać mniejsze informacje ze zdjęciem, opisem z prawej strony oraz datą w innej czcionce. Link nie musi działać.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Działanie: 
+- Każde najechanie myszką ma wywoływać jakiś efekt hover. Mogą być takie jak są na stronie meczyki.pl, która jest głównym wzorem do "skopiowania".
