@@ -1,0 +1,366 @@
+:root {
+  --shadow: #fff;
+  --bgColor: #fff; /* czysto biały dla trybu jasnego */
+  --widgetWrapperTitleColor: #22282b;
+  --widgetWrapperBorderColor: #ddd;
+  --colorBreadcrumbs: #ccc;
+  --textColor: #212529;
+  --colorTopRatedBookieDescription: #242424;
+  --colorSportbuzzTitle: #293130;
+  --black: #242424;
+  --bgColorLightGreen: #e9f5f1;
+  --colorMatchesLiveSuperBorder: #f2f2f2;
+  --colorMatchesLiveSuperGradient: #fff;
+  --colorMatchesLiveSuperGradientTo: hsla(0,0%,100%,.6);
+  --colorMatchesLiveSuperPlaceholderLight: hsla(0,0%,96%,.4);
+  --colorMatchesLiveSuperPlaceholder: hsla(0,0%,90%,.4);
+  --colorDaySelectorBorder: #e0e0e0;
+  --bgColorGray: #dcdcdc;
+  --gray: #565f64;
+  --greenLight: #b7ece3;
+  --colorButtonMoreHover: #e9f5f1;
+  --colorNewsAdditionalBorder: #ddd;
+  --colorBgTextInput: #f5f5f5;
+  --colorChatInputBorder: #e5e5e5;
+  --colorBannerPlaceholder: #f5f5f5;
+  --secondColorBannerPlaceholder: #eee;
+  --typesIconBrightness: brightness(100%);
+  --goalIconBrightness: brightness(100%);
+  --colorTooltip: #fff;
+  --soccerPersonTooltipBg: #fff;
+  --colorDropdownMenuItemHover: #e9f5f1;
+  --colorZoneDefault: #dcdcdc;
+  --colorUserMenu: #fff;
+  --transmissionHoverShadow: #a3a3a333;
+  --greyInverted: #7d7d81;
+  --newsVisited: #22282bad;
+  --colorCalendarHover: #f3fcfa;
+  --pollBg: none;
+  --colorCouponBorder: #f2f2f2;
+  --bgStripedTable: #f8f9fa;
+  --mixBlendMode: lighten;
+  --boxShadowColor: rgba(0,0,0,.2);
+  --linearGradientShadow: linear-gradient(270deg,#fff 27.93%,hsla(0,0%,100%,0));
+  --newBgColor: #fff;
+  --whiteColor: #fefefe;
+  --blackColor: #202020;
+  --shades30: hsla(0,0%,96%,.3);
+  --shades100: #f2f2f2;
+  --shades200: #e8e8e8;
+  --shades300: #ddd;
+  --shades700: #7d7d81;
+  --shades900: #2e3439;
+  --primary100: #effffc;
+  --primary200: #d7fff8;
+  --secondary300: #5f6c75;
+  --secondary500: #748591;
+  --secondary800: #ebeef0;
+  --colorShadow: #fff;
+  --font-main: -apple-system, blinkmacsystemfont, "Segoe UI", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-bold-italic: "Segoe UI", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  --liveScoreCellBg: #fff;
+  --liveScoreCellText: #212529;
+  --sidebarBg: #f2f2f2;
+  --sidebarText: #212529;
+  --highlight: #19c2a5;
+  --hoverShadow: 0 0 0 3px #19c2a522;
+}
+.dark-mode {
+  --shadow: #222428;
+  --bgColor: #2d3236;
+  --widgetWrapperTitleColor: #f8f9fa;
+  --widgetWrapperBorderColor: #525c66;
+  --colorBreadcrumbs: #6c757d;
+  --textColor: #f8f9fa;
+  --colorTopRatedBookieDescription: #f8f9fa;
+  --colorSportbuzzTitle: #f5f5f5;
+  --black: #f8f9fa;
+  --bgColorLightGreen: #6c757d;
+  --colorMatchesLiveSuperBorder: #343a40;
+  --colorMatchesLiveSuperGradient: #2d3236;
+  --colorMatchesLiveSuperGradientTo: rgba(45,50,54,.6);
+  --colorDaySelectorBorder: #525c66;
+  --bgColorGray: #6c757d;
+  --gray: #dee2e6;
+  --greenLight: #6c757d;
+  --colorButtonMoreHover: #35383c;
+  --colorNewsAdditionalBorder: #525c66;
+  --colorBgTextInput: #282c30;
+  --colorChatInputBorder: #525c66;
+  --colorBannerPlaceholder: #35383c;
+  --secondColorBannerPlaceholder: #535659;
+  --colorMatchesLiveSuperPlaceholderLight: #35383c;
+  --colorMatchesLiveSuperPlaceholder: #535659;
+  --typesIconBrightness: brightness(300%);
+  --goalIconBrightness: brightness(220%);
+  --colorTooltip: #3a3b3c;
+  --soccerPersonTooltipBg: #1c1e1f;
+  --colorDropdownMenuItemHover: #464d53;
+  --colorZoneDefault: #5a5a5a;
+  --colorUserMenu: #161e1e;
+  --transmissionHoverShadow: #ffffff33;
+  --greyInverted: #dee2e6;
+  --newsVisited: #ffffffb3;
+  --colorCalendarHover: #404447;
+  --colorCouponBorder: #525c66;
+  --pollBg: #202020;
+  --bgStripedTable: #6c757d;
+  --mixBlendMode: color;
+  --boxShadowColor: rgba(18,18,19,.2);
+  --newBgColor: #222428;
+  --linearGradientShadow: linear-gradient(270deg,#222428 27.93%,rgba(34,36,40,0));
+  --whiteColor: #22272b;
+  --blackColor: #ddd;
+  --shades30: #222428;
+  --shades100: #2e3439;
+  --shades200: #4b565e;
+  --shades300: #a7a7a7;
+  --shades700: #a7a7a7;
+  --shades900: #a7a7a7;
+  --primary100: #2e3439;
+  --primary200: #4b565e;
+  --secondary300: #9db4c4;
+  --secondary500: #748591;
+  --secondary800: #2e3439;
+  --colorShadow: #222428;
+  --font-main: "Segoe UI", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-bold-italic: "Segoe UI", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  --liveScoreCellBg: #222428;
+  --liveScoreCellText: #f8f9fa;
+  --sidebarBg: #222428;
+  --sidebarText: #f8f9fa;
+  --highlight: #19c2a5;
+  --hoverShadow: 0 0 0 3px #19c2a544;
+}
+
+body {
+  background: var(--bgColor) !important;
+  color: var(--textColor) !important;
+  font-family: var(--font-main);
+  transition: background 0.3s, color 0.3s;
+}
+
+.card, .navbar, .dropdown-menu, .btn, .form-control {
+  background: var(--bgColor) !important;
+  color: var(--textColor) !important;
+  border-color: var(--widgetWrapperBorderColor) !important;
+  font-family: var(--font-main);
+}
+
+.widget-card {
+  font-family: var(--font-main);
+  font-size: 17px;
+  border: 1.5px solid var(--widgetWrapperBorderColor);
+  border-radius: 16px;
+  background: var(--bgColor);
+  box-shadow: 0 2px 8px var(--boxShadowColor);
+  transition: box-shadow 0.2s, border 0.18s, background 0.18s;
+}
+.widget-card:hover {
+  box-shadow: 0 0 0 3px #19c2a5;
+  border-color: #19c2a5;
+  background: var(--primary200);
+}
+
+.widget-card-title {
+  font-family: var(--font-bold-italic);
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  margin-bottom: 14px;
+  color: #19c2a5;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.widget-row {
+  font-family: var(--font-main);
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--textColor);
+  padding: 7px 0 7px 0;
+  border-bottom: 1px solid var(--widgetWrapperBorderColor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.16s, color 0.18s;
+}
+.widget-row:last-child {
+  border-bottom: none;
+}
+.widget-row:hover {
+  background: var(--colorButtonMoreHover);
+  color: #19c2a5;
+}
+
+.widget-card-link {
+  font-family: var(--font-main);
+  font-weight: 600;
+  color: #19c2a5;
+  text-decoration: none;
+  font-size: 17px;
+  transition: color 0.16s;
+}
+.widget-card-link:hover {
+  color: #137f6e;
+  text-decoration: underline;
+}
+
+.widget-card-btn {
+  font-family: var(--font-main);
+  font-weight: 600;
+  color: #19c2a5;
+  border: 2px solid #19c2a5 !important;
+  border-radius: 18px;
+  background: transparent !important;
+  font-size: 17px;
+  padding: 3px 16px;
+  transition: background 0.16s, color 0.16s;
+  margin-left: 10px;
+}
+.widget-card-btn:hover {
+  background: #19c2a5 !important;
+  color: #fff !important;
+}
+
+.widget-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+/* Wyniki na żywo */
+.live-score-cell {
+  background: var(--liveScoreCellBg) !important;
+  color: var(--liveScoreCellText) !important;
+  border: 1.5px solid var(--widgetWrapperBorderColor);
+  border-radius: 13px;
+  min-width: 150px;
+  min-height: 80px;
+  max-width: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: box-shadow 0.18s, background 0.18s, color 0.18s, border 0.18s;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 11px 8px;
+  padding: 14px 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px var(--boxShadowColor);
+  font-family: var(--font-main);
+}
+
+.live-score-cell .live-score-flags {
+  display: flex;
+  gap: 9px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.live-score-cell .live-score-time {
+  font-size: 15px;
+  color: var(--gray);
+  font-weight: 400;
+  margin-top: 2px;
+  font-family: var(--font-main);
+}
+
+/* Sidebar */
+.sidebar-card, .sidebar-list li {
+  background: var(--sidebarBg) !important;
+  color: var(--sidebarText) !important;
+  font-family: var(--font-main);
+  transition: background 0.2s, color 0.2s;
+}
+.sidebar-list li:hover, .sidebar-card:hover {
+  background: var(--colorButtonMoreHover) !important;
+  color: var(--highlight) !important;
+  box-shadow: var(--hoverShadow);
+}
+
+.sidebar-card {
+  border-radius: 14px;
+  margin-bottom: 20px;
+  padding: 14px 0 10px 0;
+  border: 1px solid var(--widgetWrapperBorderColor);
+}
+.sidebar-card h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  margin-left: 18px;
+  font-family: var(--font-main);
+}
+.sidebar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0 16px;
+}
+.sidebar-list li {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--widgetWrapperBorderColor);
+  font-size: 15px;
+  cursor: pointer;
+  font-family: var(--font-main);
+}
+.sidebar-list li:last-child {
+  border-bottom: none;
+}
+.sidebar-icon {
+  margin-right: 11px;
+  font-size: 17px;
+}
+
+.btn-active-news {
+  background: #19c2a5 !important;
+  color: #fff !important;
+  border: 2px solid #19c2a5 !important;
+  font-weight: 700 !important;
+  box-shadow: 0 0 0 2px #19c2a544 !important;
+  font-family: var(--font-main);
+}
+.btn-outline-info {
+  background: transparent !important;
+  color: #19c2a5 !important;
+  border: 2px solid #19c2a5 !important;
+  font-weight: 500 !important;
+  font-family: var(--font-main);
+}
+.btn-outline-info:hover {
+  background: #19c2a5 !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+}
+
+::-webkit-scrollbar {
+  background: var(--bgColorGray) !important;
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--gray) !important;
+  border-radius: 6px;
+}
+.sidebar-list::-webkit-scrollbar,
+.sidebar-card::-webkit-scrollbar {
+  background: var(--sidebarBg) !important;
+}
+.sidebar-list::-webkit-scrollbar-thumb,
+.sidebar-card::-webkit-scrollbar-thumb {
+  background: var(--gray) !important;
+}
+
+@media (max-width: 991px) {
+  .sidebar-card {
+    margin-bottom: 10px;
+    padding: 10px 0 6px 0;
+  }
+}
