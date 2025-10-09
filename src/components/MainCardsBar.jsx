@@ -32,6 +32,7 @@ export default function MainCardsBar() {
           />
         </div>
         <div className="col-12 col-md-6 col-lg-3">
+          
           <WidgetCard
             icon={<i className="bi bi-gift"></i>}
             title="BONUSY"
@@ -40,11 +41,17 @@ export default function MainCardsBar() {
               { left: "Superbet kod promocyjny", right: "" },
               { left: "Betclic kod promocyjny", right: "" },
               { left: "STS kod promocyjny", right: "" },
-              { left: "Fortuna kod promocyjny", right: "" }
+              { left: "Fortuna kod promocyjny", right: "" },
+              { left: "A kod promocyjny", right: "" },
+              { left: "B kod promocyjny", right: "" },
+              { left: "C kod promocyjny", right: "" },
+              { left: "D kod promocyjny", right: "" },
+              { left: "E kod promocyjny", right: "" },
             ]}
           />
         </div>
         <div className="col-12 col-md-6 col-lg-3">
+          
           <WidgetCard
             icon={<i className="bi bi-chat-dots"></i>}
             title="SPORTBUZZ"
@@ -53,9 +60,13 @@ export default function MainCardsBar() {
               { left: "Robert Lewandowski w liczbach", right: "" },
               { left: "Co Wy na to?", right: "" },
               { left: "Robert Lewandowski", right: "" },
-              { left: "Nie da się ukryć", right: "" }
+              { left: "Nie da się ukryć", right: "" },
+              { left: "Wojciech Szczęsny", right: "" },
+              { left: "Jakub Błaszczykowski", right: "" },
+              { left: "Cash", right: "" },
+              { left: "Krzysztof Piątek", right: "" },
             ]}
-            extra={<button className="btn btn-sm btn-success ms-auto">Dodaj +</button>}
+            // extra={<button className="btn btn-sm btn-success ms-auto">Dodaj +</button>}
           />
         </div>
       </div>
